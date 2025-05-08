@@ -1,0 +1,45 @@
+/* Colori Header */
+
+/* base Header Arancione:   #FF6900 */
+/* Colori Font Header:      #FFFFFF*/
+
+/* Colori Main*/
+
+/* Base Main "Bianca"*/
+
+/*prezzo sconto base color: #FF0000 */
+/* Color Sostenibilità      #008000 */
+/* */
+/* */
+/* Colori Footer*/
+/* Base Footer grigioscuro/nero:  #1A1A1A */
+/* */
+/* */
+/* */
+
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    border: 1px dashed red;
+}
+ header {
+    background-color:#FF6900;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+  
+img {
+    width: 300px;
+}
+
+   i {
+    color:white;
+} 
+
