@@ -63,10 +63,30 @@ a {
 .col-4 {
   width: calc(100% / 6 * 2);
   padding: 1rem;
+  
+  
+  
+
+  
 }
 
 img {
   max-width: 100%;
+}
+.foto1 {
+    position:absolute;
+}
+
+.foto1 {
+    position:absolute;
+    top:0;
+   
+}
+
+.foto1 .scontored .scontogreen{
+    position:absolute;
+    top:0;
+   
 }
 
 .card {
@@ -78,15 +98,56 @@ img {
     position:absolute;
     right:0;
     top:10px;
+    margin:5px;
     background-color: white;
-    padding:10px;
-    margin:10px;
+    
+    
+}
+
+.fa-heart {
+    font-size:2rem;
     
 }
     
     
 
 .star:hover {
+    
    color:  red;
    background-color:#EBEBEB;
+   
+}
+
+ .scontored  {  
+    width: 50px;
+    height: 20px;
+    background: red;
+    position:absolute;
+    bottom:20%
+}
+
+.scontored p {
+    text-align:center;
+
+}
+    
+.scontogreen {
+    width: 90px;
+    height: 20px;
+    background: rgb(52, 221, 0);
+    position:absolute;
+    left:15%;
+    bottom: 20%
+     }
+    
+     .scontogreen p {
+        text-align:center;
+     }  
+
+     .foto1:hover {
+        opacity:0;
+     }
+    
+.foto1a:hover {
+    opacity:1;
 }
